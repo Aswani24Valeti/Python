@@ -1,0 +1,10 @@
+def palindrome(string):
+    reversed_string = string[::-1]
+    return string == reversed_string
+
+# Test the function
+x = "madam"
+if palindrome(x):
+    print("x is a palindrome")
+else:
+    print("x is not a palindrome")
